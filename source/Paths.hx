@@ -183,7 +183,7 @@ class Paths
 	}
 
 	inline static public function getPackerAtlas(key:String, ?library:String = '')
-		return FlxAtlasFrames.fromSpriteSheetPacker(image(key, library), packerTxt(key, library'));
+		return FlxAtlasFrames.fromSpriteSheetPacker(image(key, library), packerTxt(key, library));
 
 	inline static public function getSparrowAtlas(key:String, ?library:String = '')
 		return FlxAtlasFrames.fromSparrow(image(key, library), sparrowXml('images/$key.xml', library))
